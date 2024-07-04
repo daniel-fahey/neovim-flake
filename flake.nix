@@ -17,7 +17,7 @@
     nil.inputs.flake-utils.follows = "flake-utils";
 
     # Tidal cycles
-    tidalcycles.url = "github:mitchmindtree/tidalcycles.nix";
+    tidalcycles.url = "github:daniel-fahey/tidalcycles.nix";
     tidalcycles.inputs.vim-tidal-src.url = "github:tidalcycles/vim-tidal";
 
     ## Plugins (must begin with plugin-)
